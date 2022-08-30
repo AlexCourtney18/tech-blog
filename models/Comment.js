@@ -30,7 +30,7 @@ Comment.init(
             allowNull: false,
             reference: {
                 model: 'post',
-                key: 'id'
+                key: 'id',
             }
         }
     },
@@ -38,7 +38,7 @@ Comment.init(
         sequelize,
         freezeTableName: true,
         underscored: true,
-        modelName: 'comment'
+        modelName: 'comment',
     }
 );
 
